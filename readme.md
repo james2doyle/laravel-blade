@@ -30,9 +30,13 @@ This package adds syntax definitions for the [Laravel](http://www.laravel.com) B
 
 #### Keymaps
 
-[Exclaimation on selection](images/exclaimation-on-selection.gif "Exclaimation on selection")
+Press `$` when you have a selection active:
 
 [Dollar on selection](images/dollar-on-selection.gif "Dollar on selection")
+
+Press `!` when you have a selection active:
+
+[Exclaimation on selection](images/exclaimation-on-selection.gif "Exclaimation on selection")
 
 #### Supported Extensions
 
