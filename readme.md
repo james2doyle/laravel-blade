@@ -13,7 +13,7 @@ This package adds syntax definitions for the [Laravel](http://www.laravel.com) B
 
 ### Sublime Text Manual Install
 
-1. Download or clone this repository into ```[install-dir]/Packages/laravel-blade```
+1. Download or clone this repository: ```git clone https://github.com/Medalink/laravel-blade.git Laravel\ Blade\ Highlighter```
 2. Restart Sublime Text.
 3. Reopen any ```.blade``` files.
 4. Enjoy :)
