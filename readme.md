@@ -28,6 +28,12 @@ This package adds syntax definitions for the [Laravel](http://www.laravel.com) B
 
 *[Material Theme](https://github.com/equinusocio/material-theme).*
 
+#### Keymaps
+
+[Exclaimation on selection](images/exclaimation-on-selection.gif "Exclaimation on selection")
+
+[Dollar on selection](images/dollar-on-selection.gif "Dollar on selection")
+
 #### Supported Extensions
 
 * [Blade Extensions Laravel Package](https://github.com/RobinRadic/blade-extensions)
