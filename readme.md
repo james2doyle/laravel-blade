@@ -13,7 +13,7 @@ This package adds syntax definitions for the [Laravel](http://www.laravel.com) B
 
 ### Sublime Text Manual Install
 
-1. Download or clone this repository into ```[install-dir]/Packages/laravel-blade```
+1. Download or clone this repository: ```git clone https://github.com/Medalink/laravel-blade.git Laravel\ Blade\ Highlighter```
 2. Restart Sublime Text.
 3. Reopen any ```.blade``` files.
 4. Enjoy :)
@@ -27,6 +27,16 @@ This package adds syntax definitions for the [Laravel](http://www.laravel.com) B
 ![blade-example](https://cloud.githubusercontent.com/assets/499192/8564966/68f19076-2551-11e5-9bc2-13d8b0915ffa.jpg "blade-example-2")
 
 *[Material Theme](https://github.com/equinusocio/material-theme).*
+
+#### Keymaps
+
+Press `$` when you have a selection active:
+
+![Dollar on selection](images/dollar-on-selection.gif "Dollar on selection")
+
+Press `!` when you have a selection active:
+
+![Exclaimation on selection](images/exclaimation-on-selection.gif "Exclaimation on selection")
 
 #### Supported Extensions
 

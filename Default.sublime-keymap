@@ -1,0 +1,60 @@
+[
+  // press $ when selecting text to wrap it in blade echo tags and a variable
+  {
+    "keys": [
+      "$"
+    ],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "{{ \\$${0:$SELECTION} }}"
+    },
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html.blade",
+        "match_all": true
+      },
+      {
+        "key": "setting.auto_match_enabled",
+        "operator": "equal",
+        "operand": true
+      },
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": true
+      }
+    ]
+  },
+  // press ! when selecting text to wrap it in blade raw echo tags and a variable
+  {
+    "keys": [
+      "!"
+    ],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "{!! \\$${0:$SELECTION} !!}"
+    },
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html.blade",
+        "match_all": true
+      },
+      {
+        "key": "setting.auto_match_enabled",
+        "operator": "equal",
+        "operand": true
+      },
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": true
+      }
+    ]
+  }
+]
